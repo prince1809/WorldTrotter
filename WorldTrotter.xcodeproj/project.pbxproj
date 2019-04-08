@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3A5EA50225A5460006DFAAD /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A5EA4F225A5460006DFAAD /* ConversionViewController.swift */; };
 		A3DDC88D2235623500993E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DDC88C2235623500993E54 /* AppDelegate.swift */; };
 		A3DDC88F2235623500993E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DDC88E2235623500993E54 /* ViewController.swift */; };
 		A3DDC8922235623500993E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DDC8902235623500993E54 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3A5EA4F225A5460006DFAAD /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		A3DDC8892235623500993E54 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DDC88C2235623500993E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3DDC88E2235623500993E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				A3DDC88C2235623500993E54 /* AppDelegate.swift */,
 				A3DDC88E2235623500993E54 /* ViewController.swift */,
 				A3DDC8902235623500993E54 /* Main.storyboard */,
+				A3A5EA4F225A5460006DFAAD /* ConversionViewController.swift */,
 				A3DDC8932235623600993E54 /* Assets.xcassets */,
 				A3DDC8952235623600993E54 /* LaunchScreen.storyboard */,
 				A3DDC8982235623600993E54 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3DDC88F2235623500993E54 /* ViewController.swift in Sources */,
+				A3A5EA50225A5460006DFAAD /* ConversionViewController.swift in Sources */,
 				A3DDC88D2235623500993E54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
