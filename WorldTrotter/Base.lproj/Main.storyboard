@@ -18,25 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9i-ai-azQ">
-                                <rect key="frame" x="59" y="144" width="296" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9i-ai-azQ">
+                                <rect key="frame" x="59.5" y="144" width="295.5" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bP-Vb-RYG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bP-Vb-RYG">
                                 <rect key="frame" x="150" y="195" width="114" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOW-hw-rqE">
-                                <rect key="frame" x="148.5" y="246" width="117" height="84"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOW-hw-rqE">
+                                <rect key="frame" x="149" y="246" width="116.5" height="84"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degree Celcius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hp7-OD-vbp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degree Celcius" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hp7-OD-vbp">
                                 <rect key="frame" x="92" y="338" width="230" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -61,9 +61,12 @@
                         <constraints>
                             <constraint firstItem="vKJ-jM-323" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3a7-Xd-bxv"/>
                             <constraint firstItem="hp7-OD-vbp" firstAttribute="centerX" secondItem="P9i-ai-azQ" secondAttribute="centerX" id="AJD-9Z-SUf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hp7-OD-vbp" secondAttribute="trailing" id="IgH-9c-V8R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0bP-Vb-RYG" secondAttribute="trailing" id="Ih9-xa-ZIk"/>
                             <constraint firstItem="hp7-OD-vbp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ikj-mk-JmB"/>
                             <constraint firstItem="XOW-hw-rqE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MJu-oW-iX8"/>
                             <constraint firstItem="0bP-Vb-RYG" firstAttribute="centerX" secondItem="P9i-ai-azQ" secondAttribute="centerX" id="Qgd-OA-jXt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XOW-hw-rqE" secondAttribute="trailing" id="RcS-zh-6WS"/>
                             <constraint firstItem="vKJ-jM-323" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wpi-gB-d2P"/>
                             <constraint firstItem="P9i-ai-azQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cmx-xt-2we"/>
                             <constraint firstItem="XOW-hw-rqE" firstAttribute="centerX" secondItem="P9i-ai-azQ" secondAttribute="centerX" id="dI0-sk-GBH"/>
@@ -72,6 +75,7 @@
                             <constraint firstItem="P9i-ai-azQ" firstAttribute="top" secondItem="vKJ-jM-323" secondAttribute="bottom" constant="8" id="ef3-J5-Olh"/>
                             <constraint firstItem="vKJ-jM-323" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="o6Z-8s-fcS"/>
                             <constraint firstItem="0bP-Vb-RYG" firstAttribute="top" secondItem="P9i-ai-azQ" secondAttribute="bottom" constant="8" id="t2e-9A-8hr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="P9i-ai-azQ" secondAttribute="trailing" id="yrC-4U-OAd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -96,10 +100,10 @@
         <!--Map-->
         <scene sceneID="FVo-rg-Xq3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tO1-2B-PXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="DM5-or-elf" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="msB-Tf-WU0"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tO1-2B-PXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="849" y="329"/>
         </scene>

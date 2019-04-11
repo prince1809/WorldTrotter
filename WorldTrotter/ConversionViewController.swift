@@ -39,17 +39,19 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func fahrenheitFieldEditingChanged(_ textField: UITextField) {
-        //celciusLabel.text = textField.text
-        if let text = textField.text, let value = Double(text) {
-            fahrenheitValue = Measurement(value: value, unit: .fahrenheit)
+        if let text = textField.text, let number = numberFormatter.number(from: text) {
+            fahrenheitValue = Measurement(value: number.doubleValue, unit: .fahrenheit)
         } else {
             fahrenheitValue = nil
         }
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        let existingTextHasDecimalSeprator = string.range(of: ".")
-        let replacementTextHasDecimalSeprator = string.range(of: ".")
+        let currentLocale = Locale.current
+        let decimalSeprator = currentLocale.decimalSeparator ??  "."
+        
+        let existingTextHasDecimalSeprator = textField.text?.range(of: decimalSeprator)
+        let replacementTextHasDecimalSeprator = string.range(of: decimalSeprator)
         if existingTextHasDecimalSeprator != nil,
             replacementTextHasDecimalSeprator != nil {
             return false
